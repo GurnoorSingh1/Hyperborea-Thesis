@@ -33,8 +33,8 @@ import requests
 
 WEBUI_URL = "http://127.0.0.1:7860"
 
-INPUT_DIR = Path(r"C:\Users\Gurnoor\Documents\UVA\Scriptie\dataset\denoisefigure")
-OUTPUT_DIR = Path(r"C:\Users\Gurnoor\Documents\UVA\Scriptie\dataset\denoisefiguresnowhigh")
+INPUT_DIR = Path(r"C:\Users\Gurnoor\Documents\UVA\Scriptie\dataset\final_dataset_clear_2")
+OUTPUT_DIR = Path(r"C:\Users\Gurnoor\Documents\UVA\Scriptie\dataset\final_dataset_snow_2")
 
 
 
@@ -43,20 +43,6 @@ PROMPT = ( "realistic snowy urban driving scene, heavy snow accumulation on road
 NEGATIVE_PROMPT = ( "dissapearing objects, cartoon, anime, painting, render, unrealistic, blurry, distorted cars, " 
                    "melted objects, deformed vehicles, bad perspective, low quality" )
 
-
-#ROMPT = (
-#   "photorealistic snowy urban driving scene, snow-covered roads and sidewalks, snow accumulation on parked cars, "
-#   "rooftops, trees and vegetation, icy road surface, cold overcast winter daylight, realistic snow coverage, "
-#   "realistic winter weather, city street, dashcam camera view, high detail, natural lighting, "
-#   "preserved scene geometry, preserved vehicle locations, realistic autonomous driving image" 
-#
-
-#EGATIVE_PROMPT = (
-#   "cartoon, anime, painting, cgi, render, 3d, illustration, low quality, blurry, out of focus, "
-#   "deformed vehicles, distorted cars, warped buildings, duplicate objects, missing objects, hallucinated objects, "
-#   "floating objects, incorrect perspective, oversaturated, extra wheels, extra cars, broken road markings, "
-#   "artifacts, text, watermark"
-#
 
 
 # main generation settings
