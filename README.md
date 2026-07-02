@@ -10,6 +10,7 @@ The project uses Stable Diffusion, ControlNet and RealisticVision v5.1 to genera
 - `scripts/`: Python scripts for generation, FID preparation and segmentation evaluation.
 - `results/`: Output tables and evaluation results.
 - `figures/`: Figures used in the thesis.
+- `settings/`: Used prompts and generation settings.
 - `docs/`: Final thesis and delta document.
 - `requirements.txt`: Python dependencies.
 
