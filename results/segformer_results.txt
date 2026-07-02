@@ -1,0 +1,119 @@
+Results clear
+-------
+
+Class pixel counts
+------------------
+road            GT:  190848389 | Pred:  190000949 | Correct:  188600410
+sidewalk        GT:   26430746 | Pred:   25717631 | Correct:   23740779
+building        GT:   99943500 | Pred:  101102665 | Correct:   95480637
+wall            GT:    3201149 | Pred:    2594650 | Correct:    2173749
+fence           GT:    6280024 | Pred:    5556087 | Correct:    4497813
+pole            GT:    9395787 | Pred:    9786795 | Correct:    7043620
+traffic light   GT:    1171014 | Pred:    1073320 | Correct:     863025
+traffic sign    GT:    3791997 | Pred:    3607194 | Correct:    3122632
+vegetation      GT:   72934226 | Pred:   74396917 | Correct:   70049945
+terrain         GT:    3211063 | Pred:    2471602 | Correct:    2125308
+sky             GT:   15015373 | Pred:   14995996 | Correct:   14550623
+person          GT:    8813158 | Pred:    9445363 | Correct:    8013655
+rider           GT:     824346 | Pred:     751727 | Correct:     540362
+car             GT:   30823964 | Pred:   31184649 | Correct:   29971021
+truck           GT:    1359349 | Pred:    1345736 | Correct:    1248221
+bus             GT:    2233103 | Pred:    2230397 | Correct:    2090876
+train           GT:    1031648 | Pred:    1024513 | Correct:     905888
+motorcycle      GT:     615736 | Pred:     467213 | Correct:     405939
+bicycle         GT:    2384453 | Pred:    2555621 | Correct:    2043235
+
+Top predictions for GT class: car
+--------------------------------
+car            :   29971021 pixels (97.23%)
+building       :     237554 pixels (0.77%)
+person         :     118085 pixels (0.38%)
+vegetation     :     109074 pixels (0.35%)
+bus            :      69441 pixels (0.23%)
+mIoU over present classes: 0.7571
+
+Class IoU
+---------
+road           : 0.9810
+sidewalk       : 0.8357
+building       : 0.9045
+wall           : 0.6001
+fence          : 0.6129
+pole           : 0.5802
+traffic light  : 0.6248
+traffic sign   : 0.7302
+vegetation     : 0.9064
+terrain        : 0.5974
+sky            : 0.9411
+person         : 0.7822
+rider          : 0.5217
+car            : 0.9355
+truck          : 0.8568
+bus            : 0.8813
+train          : 0.7875
+motorcycle     : 0.5996
+bicycle        : 0.7053
+
+
+
+
+
+
+
+
+
+Results Snow
+-------
+
+Class pixel counts
+------------------
+road            GT:  107243001 | Pred:  113891925 | Correct:  104747786
+sidewalk        GT:   14840128 | Pred:    7824256 | Correct:    5604056
+building        GT:   56206734 | Pred:   67084424 | Correct:   52456957
+wall            GT:    1798860 | Pred:     429682 | Correct:     179956
+fence           GT:    3529997 | Pred:    2293229 | Correct:    1447323
+pole            GT:    5285804 | Pred:    4580064 | Correct:    2658253
+traffic light   GT:     659599 | Pred:     368057 | Correct:     190081
+traffic sign    GT:    2133261 | Pred:    1371468 | Correct:    1040335
+vegetation      GT:   41021741 | Pred:   38874934 | Correct:   34052384
+terrain         GT:    1802873 | Pred:     294230 | Correct:     124900
+sky             GT:    8442025 | Pred:    7494963 | Correct:    7205924
+person          GT:    4956214 | Pred:    4827890 | Correct:    3509563
+rider           GT:     463874 | Pred:     233967 | Correct:     150115
+car             GT:   17319915 | Pred:   17404919 | Correct:   15942993
+truck           GT:     764952 | Pred:     671885 | Correct:     458639
+bus             GT:    1257173 | Pred:     844649 | Correct:     692150
+train           GT:     581050 | Pred:     531869 | Correct:     420692
+motorcycle      GT:     345764 | Pred:      48617 | Correct:      29517
+bicycle         GT:    1339807 | Pred:     921744 | Correct:     694951
+
+Top predictions for GT class: car
+--------------------------------
+car            :   15942993 pixels (92.05%)
+building       :     578882 pixels (3.34%)
+vegetation     :     186579 pixels (1.08%)
+road           :     184912 pixels (1.07%)
+person         :     128985 pixels (0.74%)
+mIoU over present classes: 0.4638
+
+Class IoU
+---------
+road           : 0.9000
+sidewalk       : 0.3285
+building       : 0.7406
+wall           : 0.0878
+fence          : 0.3307
+pole           : 0.3688
+traffic light  : 0.2269
+traffic sign   : 0.4221
+vegetation     : 0.7428
+terrain        : 0.0633
+sky            : 0.8253
+person         : 0.5593
+rider          : 0.2741
+car            : 0.8489
+truck          : 0.4689
+bus            : 0.4910
+train          : 0.6077
+motorcycle     : 0.0809
+bicycle        : 0.4436

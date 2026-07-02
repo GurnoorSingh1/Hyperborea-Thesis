@@ -1,0 +1,3 @@
+dataset,miou
+Clear Cityscapes Frankfurt validation,0.7571
+Generated snowy Frankfurt validation,0.4638

@@ -1,0 +1,21 @@
+FID results
+
+Reference dataset:
+ACDC real snowy images
+
+Comparisons:
+Clear Cityscapes vs ACDC Snow
+FID: 159.99
+
+Generated Snow vs ACDC Snow
+FID: 123.87
+
+Relative improvement:
+Approximately 22.6%
+
+Command used:
+python -m pytorch_fid real_snow_resized clear_resized
+python -m pytorch_fid real_snow_resized output
+
+Notes:
+Images were resized to 1536 x 768 before computing FID.

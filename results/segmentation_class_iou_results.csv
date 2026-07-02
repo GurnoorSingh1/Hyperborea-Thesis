@@ -1,0 +1,20 @@
+class,clear_iou,generated_snow_iou
+road,0.9810,0.9000
+sidewalk,0.8357,0.3285
+building,0.9045,0.7406
+wall,0.6001,0.0878
+fence,0.6129,0.3307
+pole,0.5802,0.3688
+traffic light,0.6248,0.2269
+traffic sign,0.7302,0.4221
+vegetation,0.9064,0.7428
+terrain,0.5974,0.0633
+sky,0.9411,0.8253
+person,0.7822,0.5593
+rider,0.5217,0.2741
+car,0.9355,0.8489
+truck,0.8568,0.4689
+bus,0.8813,0.4910
+train,0.7875,0.6077
+motorcycle,0.5996,0.0809
+bicycle,0.7053,0.4436
