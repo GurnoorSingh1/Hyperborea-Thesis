@@ -14,6 +14,20 @@ The project uses Stable Diffusion, ControlNet and RealisticVision v5.1 to genera
 - `settings/`: Used prompts and generation settings.
 - `requirements.txt`: Python dependencies.
 
+
+## Hyperborea dataset
+
+The generated Hyperborea dataset is not included directly in this GitHub repository because of file size limitations. Below is the Google Drive link through which the dataset can be accessed:
+
+[Download Hyperborea dataset](https://drive.google.com/drive/folders/1G8Gl-koyiQf6ip_7OQXonaj_SgS0w9dP?usp=drive_link)
+
+Hyperborea contains 1000 generated snowy driving images based on the Cityscapes test subsets:
+
+- Berlin
+- Bielefeld
+- Munich
+
+
 ## Installation
 
 Create a virtual environment and install the dependencies:
