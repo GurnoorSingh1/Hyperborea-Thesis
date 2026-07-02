@@ -1,0 +1,65 @@
+Final generation settings
+
+Project:
+Hyperborea: Snowy Driving Scene Generation
+
+Generation method:
+Stable Diffusion img2img with ControlNet Canny conditioning through the AUTOMATIC1111 WebUI API.
+
+Base model:
+RealisticVision v5.1
+Model repository/name:
+SG161222/Realistic_Vision_V5.1_noVAE
+
+ControlNet:
+Type: Canny
+Model: control_v11p_sd15_canny
+Weight: 0.9
+Pixel perfect: Enabled
+Resize mode: Crop and Resize
+Processor resolution: 768
+Canny low threshold: 50
+Canny high threshold: 200
+Control mode: Balanced
+Control guidance start: 0.0
+Control guidance end: 1.0
+
+Positive prompt:
+realistic snowy urban driving scene, heavy snow accumulation on road and sidewalks, icy asphalt, winter weather, cloudy sky, heavy snowfall, photorealistic dashcam image, unchanged objects
+
+Negative prompt:
+dissapearing objects, cartoon, anime, painting, render, unrealistic, blurry, distorted cars, melted objects, deformed vehicles, bad perspective, low quality
+
+Generation settings:
+Sampler: DPM++ 2M
+Scheduler: Karras
+Steps: 30
+CFG scale: 7
+Denoising strength: 0.55
+Width: 1536
+Height: 768
+Seed: Random
+Variants per input image: 1
+
+Input data:
+Clear-weather Cityscapes images.
+
+Evaluation generation subset:
+267 Frankfurt validation images were used for the quantitative evaluation.
+
+Final dataset generation subset:
+The Hyperborea dataset was generated from the Cityscapes test subsets:
+- Berlin
+- Bielefeld
+- Munich
+
+Final dataset size:
+1000 generated snowy driving images.
+
+Notes:
+I did not include the used datasets, generated dataset and model files in this repository because of their size.
+
+Software:
+AUTOMATIC1111 Stable Diffusion WebUI
+ControlNet extension
+Python scripts using requests to send img2img API calls
